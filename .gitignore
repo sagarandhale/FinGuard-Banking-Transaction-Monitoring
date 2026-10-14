@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+dist/
+target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+
+# Logs
+*.log
+hs_err_pid*.log
+
+# IDE files
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+
+# Build and cache files
+__pycache__/
+*.class
+
+# Operating system files
+.DS_Store
+Thumbs.db
